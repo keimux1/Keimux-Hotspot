@@ -139,3 +139,41 @@ span{
 hr{
   width:4rem;
 }
+
+.phoneNumberInputSection{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.phoneNumberInput{
+  margin-top:2rem;
+  gap:1rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.phoneNumberInput input{
+  margin-top:0.5rem;
+}
+
+.phoneNumberButton{
+  width:100%;
+}
+
+.haveVoucher{
+  margin:1rem auto;
+}
+
+@media screen and (min-width:450px) {
+  .phoneNumberInput{
+    margin-top:2rem;
+    gap:1rem;
+    display:flex;
+    flex-direction:row;
+    align-items:end;
+  }
+  
+}
