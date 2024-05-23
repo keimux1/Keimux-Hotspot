@@ -35,15 +35,16 @@ table th, table td{
   border-bottom: 1px solid #62cf01;
 }
 
-
-
-
 .HotSpotName{
   display:flex;
   flex-direction:column;
-  background-color:white;
-  text-align:center;
+  align-items:center;
   justify-content:center;
+  gap:0.5rem;
+}
+
+.HotSpotName img{
+  width: 7rem;
 }
 
 .voucherSection{
