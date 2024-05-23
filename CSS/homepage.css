@@ -1,0 +1,141 @@
+*{
+  css:reset;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #151515;
+  color: #e9f0ff;
+}
+
+.content{
+  gap:20px;
+}
+
+.table{
+  margin-top:2rem;
+  padding-top:1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table{
+  width: 100%;
+  Min-width:290px;
+  max-width:500px;
+  border-collapse: collapse;
+}
+td{
+  height: 3rem;
+}
+table th, table td{
+  text-align:center;
+  position: relative; 
+  border-collapse: collapse;
+  border-bottom: 1px solid #62cf01;
+}
+
+
+
+
+.HotSpotName{
+  display:flex;
+  flex-direction:column;
+  background-color:white;
+  text-align:center;
+  justify-content:center;
+}
+
+.voucherSection{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding: 2rem 0;
+}
+.voucher{
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+}
+.voucher div{
+  display:flex;
+  flex-direction:column;
+  gap:0.25rem;
+}
+
+.helpSection,.phoneNumberSection{
+  width:100%;
+  justify-content:center;
+  margin-top:1rem;
+  padding: 0.5rem 0;
+}
+
+.helpSection h4{
+  display:flex;
+  justify-content:center;
+}
+.phoneNumberSection{
+  margin-top:0.125rem;
+  display:flex
+}
+.phoneNumber{
+  margin-left:0.5rem;
+}
+
+.copyRight{
+  margin-top:0.5rem;
+  gap:0.25rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+button{
+  all:unset;
+  text-align:center;
+  height:2rem;
+  min-width:3rem;
+  background-color:#206afe;
+  color:#e9f0ff;
+  border-radius:0.25rem;
+  font-weight:bold;
+}
+
+.voucherButton{
+  margin-top:0.5rem;
+  background-color:#bad1ff;
+  border-radius:0.25rem;
+  color:#206afe;
+}
+.voucherButton:hover{
+  background-color:#6ba6ff;
+  color:#e6f0ff;
+}
+button:hover{
+  background-color:#497ce3;
+  color:#e9f0ff;
+}
+
+input{
+  all:unset;
+  height:2rem;
+  box-shadow:none;
+  border:1px solid#b6b6b6;
+  border-radius:0.25rem;
+  padding:0.5rem;
+  box-sizing: border-box;
+}
+
+input:focus{
+  border:2px solid #98baff;
+  box-sizing: border-box;
+}
+
+span{
+  color:#98baff;
+}
+
+hr{
+  width:4rem;
+}
